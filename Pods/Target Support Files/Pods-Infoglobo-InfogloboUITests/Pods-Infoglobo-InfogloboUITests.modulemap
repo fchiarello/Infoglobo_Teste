@@ -1,0 +1,6 @@
+framework module Pods_Infoglobo_InfogloboUITests {
+  umbrella header "Pods-Infoglobo-InfogloboUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

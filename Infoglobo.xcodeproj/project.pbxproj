@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15FA5038FD0F96C73CB6CDC7 /* Pods_Infoglobo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9E2FA5AB0A2EEC736C0F3 /* Pods_Infoglobo.framework */; };
+		4A0CB83F21A104723E31DFE2 /* Pods_Infoglobo_InfogloboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD0570DA5872581538FBF13 /* Pods_Infoglobo_InfogloboUITests.framework */; };
+		921800F025EEFB3200B988AE /* InitialListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921800EF25EEFB3200B988AE /* InitialListViewController.swift */; };
+		921800F925EF027400B988AE /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921800F825EF027400B988AE /* NewsListTableViewCell.swift */; };
+		9218010125EF035600B988AE /* InitialListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218010025EF035600B988AE /* InitialListModel.swift */; };
+		9218010625EF036B00B988AE /* InitialListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218010525EF036B00B988AE /* InitialListViewModel.swift */; };
+		9218010C25EF04F700B988AE /* InitialListViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218010B25EF04F700B988AE /* InitialListViewData.swift */; };
+		9218011125EF050900B988AE /* InitialListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218011025EF050900B988AE /* InitialListView.swift */; };
+		928AD47525EEF86700FB40AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AD47425EEF86700FB40AC /* AppDelegate.swift */; };
+		928AD47725EEF86700FB40AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AD47625EEF86700FB40AC /* SceneDelegate.swift */; };
+		928AD47E25EEF86900FB40AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928AD47D25EEF86900FB40AC /* Assets.xcassets */; };
+		928AD48125EEF86900FB40AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928AD47F25EEF86900FB40AC /* LaunchScreen.storyboard */; };
+		928AD48C25EEF86900FB40AC /* InfogloboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AD48B25EEF86900FB40AC /* InfogloboTests.swift */; };
+		928AD49725EEF86900FB40AC /* InfogloboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AD49625EEF86900FB40AC /* InfogloboUITests.swift */; };
+		FF062DD097D01724F66AF209 /* Pods_InfogloboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33680173074FB7DDADCDCC32 /* Pods_InfogloboTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		928AD48825EEF86900FB40AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928AD46925EEF86700FB40AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928AD47025EEF86700FB40AC;
+			remoteInfo = Infoglobo;
+		};
+		928AD49325EEF86900FB40AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928AD46925EEF86700FB40AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928AD47025EEF86700FB40AC;
+			remoteInfo = Infoglobo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A39D4671514F891D609797D /* Pods-Infoglobo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infoglobo.debug.xcconfig"; path = "Target Support Files/Pods-Infoglobo/Pods-Infoglobo.debug.xcconfig"; sourceTree = "<group>"; };
+		33680173074FB7DDADCDCC32 /* Pods_InfogloboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfogloboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F4276C79CA3D76293F1D95 /* Pods-InfogloboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfogloboTests.debug.xcconfig"; path = "Target Support Files/Pods-InfogloboTests/Pods-InfogloboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		921800EF25EEFB3200B988AE /* InitialListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialListViewController.swift; sourceTree = "<group>"; };
+		921800F825EF027400B988AE /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
+		9218010025EF035600B988AE /* InitialListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialListModel.swift; sourceTree = "<group>"; };
+		9218010525EF036B00B988AE /* InitialListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialListViewModel.swift; sourceTree = "<group>"; };
+		9218010B25EF04F700B988AE /* InitialListViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialListViewData.swift; sourceTree = "<group>"; };
+		9218011025EF050900B988AE /* InitialListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialListView.swift; sourceTree = "<group>"; };
+		928AD47125EEF86700FB40AC /* Infoglobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Infoglobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		928AD47425EEF86700FB40AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		928AD47625EEF86700FB40AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		928AD47D25EEF86900FB40AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		928AD48025EEF86900FB40AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		928AD48225EEF86900FB40AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928AD48725EEF86900FB40AC /* InfogloboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfogloboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		928AD48B25EEF86900FB40AC /* InfogloboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfogloboTests.swift; sourceTree = "<group>"; };
+		928AD48D25EEF86900FB40AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928AD49225EEF86900FB40AC /* InfogloboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfogloboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		928AD49625EEF86900FB40AC /* InfogloboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfogloboUITests.swift; sourceTree = "<group>"; };
+		928AD49825EEF86900FB40AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB0041E042D5C0D0D04D31F /* Pods-InfogloboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfogloboTests.release.xcconfig"; path = "Target Support Files/Pods-InfogloboTests/Pods-InfogloboTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCE9E2FA5AB0A2EEC736C0F3 /* Pods_Infoglobo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Infoglobo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65D0B6068D5705484DFB043 /* Pods-Infoglobo-InfogloboUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infoglobo-InfogloboUITests.debug.xcconfig"; path = "Target Support Files/Pods-Infoglobo-InfogloboUITests/Pods-Infoglobo-InfogloboUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD0570DA5872581538FBF13 /* Pods_Infoglobo_InfogloboUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Infoglobo_InfogloboUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE57DE6641B6ED99080D9E8F /* Pods-Infoglobo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infoglobo.release.xcconfig"; path = "Target Support Files/Pods-Infoglobo/Pods-Infoglobo.release.xcconfig"; sourceTree = "<group>"; };
+		FD806A88DE731AF46D9B9070 /* Pods-Infoglobo-InfogloboUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infoglobo-InfogloboUITests.release.xcconfig"; path = "Target Support Files/Pods-Infoglobo-InfogloboUITests/Pods-Infoglobo-InfogloboUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928AD46E25EEF86700FB40AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA5038FD0F96C73CB6CDC7 /* Pods_Infoglobo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928AD48425EEF86900FB40AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF062DD097D01724F66AF209 /* Pods_InfogloboTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928AD48F25EEF86900FB40AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0CB83F21A104723E31DFE2 /* Pods_Infoglobo_InfogloboUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9218010A25EF039100B988AE /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				921800EF25EEFB3200B988AE /* InitialListViewController.swift */,
+				9218010525EF036B00B988AE /* InitialListViewModel.swift */,
+				921800F825EF027400B988AE /* NewsListTableViewCell.swift */,
+				9218010025EF035600B988AE /* InitialListModel.swift */,
+				9218010B25EF04F700B988AE /* InitialListViewData.swift */,
+				9218011025EF050900B988AE /* InitialListView.swift */,
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
+		9218011525EF051F00B988AE /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewsDetail;
+			sourceTree = "<group>";
+		};
+		9218011625EF053C00B988AE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		928AD46825EEF86700FB40AC = {
+			isa = PBXGroup;
+			children = (
+				928AD47325EEF86700FB40AC /* Infoglobo */,
+				928AD48A25EEF86900FB40AC /* InfogloboTests */,
+				928AD49525EEF86900FB40AC /* InfogloboUITests */,
+				928AD47225EEF86700FB40AC /* Products */,
+				CDE734362C8ED57C2B0D3669 /* Pods */,
+				D4CC48D21BF46D2665BD1773 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		928AD47225EEF86700FB40AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928AD47125EEF86700FB40AC /* Infoglobo.app */,
+				928AD48725EEF86900FB40AC /* InfogloboTests.xctest */,
+				928AD49225EEF86900FB40AC /* InfogloboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		928AD47325EEF86700FB40AC /* Infoglobo */ = {
+			isa = PBXGroup;
+			children = (
+				9218011625EF053C00B988AE /* Coordinator */,
+				9218011525EF051F00B988AE /* NewsDetail */,
+				9218010A25EF039100B988AE /* NewsList */,
+				928AD47425EEF86700FB40AC /* AppDelegate.swift */,
+				928AD47625EEF86700FB40AC /* SceneDelegate.swift */,
+				928AD47D25EEF86900FB40AC /* Assets.xcassets */,
+				928AD47F25EEF86900FB40AC /* LaunchScreen.storyboard */,
+				928AD48225EEF86900FB40AC /* Info.plist */,
+			);
+			path = Infoglobo;
+			sourceTree = "<group>";
+		};
+		928AD48A25EEF86900FB40AC /* InfogloboTests */ = {
+			isa = PBXGroup;
+			children = (
+				928AD48B25EEF86900FB40AC /* InfogloboTests.swift */,
+				928AD48D25EEF86900FB40AC /* Info.plist */,
+			);
+			path = InfogloboTests;
+			sourceTree = "<group>";
+		};
+		928AD49525EEF86900FB40AC /* InfogloboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				928AD49625EEF86900FB40AC /* InfogloboUITests.swift */,
+				928AD49825EEF86900FB40AC /* Info.plist */,
+			);
+			path = InfogloboUITests;
+			sourceTree = "<group>";
+		};
+		CDE734362C8ED57C2B0D3669 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A39D4671514F891D609797D /* Pods-Infoglobo.debug.xcconfig */,
+				EE57DE6641B6ED99080D9E8F /* Pods-Infoglobo.release.xcconfig */,
+				C65D0B6068D5705484DFB043 /* Pods-Infoglobo-InfogloboUITests.debug.xcconfig */,
+				FD806A88DE731AF46D9B9070 /* Pods-Infoglobo-InfogloboUITests.release.xcconfig */,
+				45F4276C79CA3D76293F1D95 /* Pods-InfogloboTests.debug.xcconfig */,
+				AEB0041E042D5C0D0D04D31F /* Pods-InfogloboTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4CC48D21BF46D2665BD1773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9E2FA5AB0A2EEC736C0F3 /* Pods_Infoglobo.framework */,
+				CDD0570DA5872581538FBF13 /* Pods_Infoglobo_InfogloboUITests.framework */,
+				33680173074FB7DDADCDCC32 /* Pods_InfogloboTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928AD47025EEF86700FB40AC /* Infoglobo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928AD49B25EEF86900FB40AC /* Build configuration list for PBXNativeTarget "Infoglobo" */;
+			buildPhases = (
+				FF0CE441298CA2EF11BAE459 /* [CP] Check Pods Manifest.lock */,
+				928AD46D25EEF86700FB40AC /* Sources */,
+				928AD46E25EEF86700FB40AC /* Frameworks */,
+				928AD46F25EEF86700FB40AC /* Resources */,
+				DBB38605E3EF54735E3B9EEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Infoglobo;
+			productName = Infoglobo;
+			productReference = 928AD47125EEF86700FB40AC /* Infoglobo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928AD48625EEF86900FB40AC /* InfogloboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928AD49E25EEF86900FB40AC /* Build configuration list for PBXNativeTarget "InfogloboTests" */;
+			buildPhases = (
+				D0DDF9C6BB36FB1055759CCC /* [CP] Check Pods Manifest.lock */,
+				928AD48325EEF86900FB40AC /* Sources */,
+				928AD48425EEF86900FB40AC /* Frameworks */,
+				928AD48525EEF86900FB40AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928AD48925EEF86900FB40AC /* PBXTargetDependency */,
+			);
+			name = InfogloboTests;
+			productName = InfogloboTests;
+			productReference = 928AD48725EEF86900FB40AC /* InfogloboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		928AD49125EEF86900FB40AC /* InfogloboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928AD4A125EEF86900FB40AC /* Build configuration list for PBXNativeTarget "InfogloboUITests" */;
+			buildPhases = (
+				A1C0E89FD70C2D08E45E1168 /* [CP] Check Pods Manifest.lock */,
+				928AD48E25EEF86900FB40AC /* Sources */,
+				928AD48F25EEF86900FB40AC /* Frameworks */,
+				928AD49025EEF86900FB40AC /* Resources */,
+				F4E99F41E34D3D24316DB56E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928AD49425EEF86900FB40AC /* PBXTargetDependency */,
+			);
+			name = InfogloboUITests;
+			productName = InfogloboUITests;
+			productReference = 928AD49225EEF86900FB40AC /* InfogloboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928AD46925EEF86700FB40AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					928AD47025EEF86700FB40AC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					928AD48625EEF86900FB40AC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 928AD47025EEF86700FB40AC;
+					};
+					928AD49125EEF86900FB40AC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 928AD47025EEF86700FB40AC;
+					};
+				};
+			};
+			buildConfigurationList = 928AD46C25EEF86700FB40AC /* Build configuration list for PBXProject "Infoglobo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 928AD46825EEF86700FB40AC;
+			productRefGroup = 928AD47225EEF86700FB40AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				928AD47025EEF86700FB40AC /* Infoglobo */,
+				928AD48625EEF86900FB40AC /* InfogloboTests */,
+				928AD49125EEF86900FB40AC /* InfogloboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		928AD46F25EEF86700FB40AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928AD48125EEF86900FB40AC /* LaunchScreen.storyboard in Resources */,
+				928AD47E25EEF86900FB40AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928AD48525EEF86900FB40AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928AD49025EEF86900FB40AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1C0E89FD70C2D08E45E1168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Infoglobo-InfogloboUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DDF9C6BB36FB1055759CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfogloboTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB38605E3EF54735E3B9EEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infoglobo/Pods-Infoglobo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infoglobo/Pods-Infoglobo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Infoglobo/Pods-Infoglobo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E99F41E34D3D24316DB56E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infoglobo-InfogloboUITests/Pods-Infoglobo-InfogloboUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infoglobo-InfogloboUITests/Pods-Infoglobo-InfogloboUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Infoglobo-InfogloboUITests/Pods-Infoglobo-InfogloboUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0CE441298CA2EF11BAE459 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Infoglobo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		928AD46D25EEF86700FB40AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921800F025EEFB3200B988AE /* InitialListViewController.swift in Sources */,
+				9218011125EF050900B988AE /* InitialListView.swift in Sources */,
+				9218010C25EF04F700B988AE /* InitialListViewData.swift in Sources */,
+				921800F925EF027400B988AE /* NewsListTableViewCell.swift in Sources */,
+				928AD47525EEF86700FB40AC /* AppDelegate.swift in Sources */,
+				9218010125EF035600B988AE /* InitialListModel.swift in Sources */,
+				928AD47725EEF86700FB40AC /* SceneDelegate.swift in Sources */,
+				9218010625EF036B00B988AE /* InitialListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928AD48325EEF86900FB40AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928AD48C25EEF86900FB40AC /* InfogloboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928AD48E25EEF86900FB40AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928AD49725EEF86900FB40AC /* InfogloboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		928AD48925EEF86900FB40AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928AD47025EEF86700FB40AC /* Infoglobo */;
+			targetProxy = 928AD48825EEF86900FB40AC /* PBXContainerItemProxy */;
+		};
+		928AD49425EEF86900FB40AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928AD47025EEF86700FB40AC /* Infoglobo */;
+			targetProxy = 928AD49325EEF86900FB40AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		928AD47F25EEF86900FB40AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928AD48025EEF86900FB40AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		928AD49925EEF86900FB40AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		928AD49A25EEF86900FB40AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		928AD49C25EEF86900FB40AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A39D4671514F891D609797D /* Pods-Infoglobo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = Infoglobo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.Infoglobo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		928AD49D25EEF86900FB40AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE57DE6641B6ED99080D9E8F /* Pods-Infoglobo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = Infoglobo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.Infoglobo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		928AD49F25EEF86900FB40AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F4276C79CA3D76293F1D95 /* Pods-InfogloboTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = InfogloboTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.InfogloboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infoglobo.app/Infoglobo";
+			};
+			name = Debug;
+		};
+		928AD4A025EEF86900FB40AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB0041E042D5C0D0D04D31F /* Pods-InfogloboTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = InfogloboTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.InfogloboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infoglobo.app/Infoglobo";
+			};
+			name = Release;
+		};
+		928AD4A225EEF86900FB40AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65D0B6068D5705484DFB043 /* Pods-Infoglobo-InfogloboUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = InfogloboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.InfogloboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Infoglobo;
+			};
+			name = Debug;
+		};
+		928AD4A325EEF86900FB40AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD806A88DE731AF46D9B9070 /* Pods-Infoglobo-InfogloboUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ6RR33WF2;
+				INFOPLIST_FILE = InfogloboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fchiarello.InfogloboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Infoglobo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		928AD46C25EEF86700FB40AC /* Build configuration list for PBXProject "Infoglobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928AD49925EEF86900FB40AC /* Debug */,
+				928AD49A25EEF86900FB40AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928AD49B25EEF86900FB40AC /* Build configuration list for PBXNativeTarget "Infoglobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928AD49C25EEF86900FB40AC /* Debug */,
+				928AD49D25EEF86900FB40AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928AD49E25EEF86900FB40AC /* Build configuration list for PBXNativeTarget "InfogloboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928AD49F25EEF86900FB40AC /* Debug */,
+				928AD4A025EEF86900FB40AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928AD4A125EEF86900FB40AC /* Build configuration list for PBXNativeTarget "InfogloboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928AD4A225EEF86900FB40AC /* Debug */,
+				928AD4A325EEF86900FB40AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928AD46925EEF86700FB40AC /* Project object */;
+}
